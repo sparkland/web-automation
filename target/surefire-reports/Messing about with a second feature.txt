@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Messing about with a second feature
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.303 s - in Messing about with a second feature

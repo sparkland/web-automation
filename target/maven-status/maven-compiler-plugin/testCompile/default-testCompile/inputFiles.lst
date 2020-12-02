@@ -1,0 +1,6 @@
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/pages/IndexPage.java
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/hooks/Hooks.java
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/stepdefs/IndexPageSteps.java
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/base/Base.java
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/runners/RunCucumberIT.java
+/Users/markcraigrobertson/devProjects/web-automation/src/test/java/com/automation/actions/IndexPageActions.java

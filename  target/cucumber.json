@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23094000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the \"index\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"index\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-02T22:07:13.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47967000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "The COVID information banner contains the current information",
+        "description": "",
+        "id": "customer-information-is-displayed-via-multiple-banners-on-viewing-the-site;the-covid-information-banner-contains-the-current-information",
+        "after": [
+          {
+            "result": {
+              "duration": 365000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 525000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the COVID banner is visible",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.theCovidBannerIsVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I see the following information associated with each header",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.iSeeTheFollowingInformationAssociatedWithEachHeader(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Header",
+                  "Value"
+                ]
+              },
+              {
+                "cells": [
+                  "APPOINTMENT",
+                  "Arrive at scheduled time"
+                ]
+              },
+              {
+                "cells": [
+                  "PROTECTION",
+                  "Wear a mask or covering"
+                ]
+              },
+              {
+                "cells": [
+                  "SANITISER",
+                  "Use on arrival"
+                ]
+              },
+              {
+                "cells": [
+                  "SPACE",
+                  "Keep distance"
+                ]
+              },
+              {
+                "cells": [
+                  "SICK",
+                  "Do not attend"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can close the COVID banner successfully",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.iCanCloseTheCovidBannerSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1479000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the \"index\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"index\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-02T22:08:27.090Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8626000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "The Cookie banner is visible and can be interacted with",
+        "description": "",
+        "id": "customer-information-is-displayed-via-multiple-banners-on-viewing-the-site;the-cookie-banner-is-visible-and-can-be-interacted-with",
+        "after": [
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the Cookie banner is visible",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.theCookieBannerIsVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Accept\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Marks-iMac.local\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/6j/tstynf051y3...}, goog:chromeOptions: {debuggerAddress: localhost:57062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 382558f99a673174318cd77d6eace083\n*** Element info: {Using\u003dlink text, value\u003dAccept}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)\n\tat com.automation.actions.IndexPageActions.getSelectableOption(IndexPageActions.java:38)\n\tat com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(IndexPageSteps.java:55)\n\tat ✽.the \"Accept\" option is selectable(file:///Users/markcraigrobertson/devProjects/web-automation/src/test/resources/features/CustomerInformation.feature:23)\n",
+              "duration": 1207000000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "the \"Accept\" option is selectable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accept\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "the \"Reject\" option is selectable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reject\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "the \"Privacy policy\" option is selectable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Privacy policy\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I select \"Privacy policy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Privacy policy\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.iSelect(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I am on the \"privacy-policy\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"privacy-policy\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer information is displayed via multiple banners on viewing the site",
+    "description": "  As a customer\n  I want to see detailed information\n  So that I feel safe with the brand",
+    "id": "customer-information-is-displayed-via-multiple-banners-on-viewing-the-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CustomerInformation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23094000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the \"index\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"index\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-02T22:07:13.327Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47967000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "The Cookie information banner contains the current information",
+        "description": "",
+        "id": "messing-about-with-a-second-feature;the-cookie-information-banner-contains-the-current-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 523000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the Cookie banner is visible",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.theCookieBannerIsVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can close the Cookie banner successfully",
+            "match": {
+              "location": "com.automation.stepdefs.IndexPageSteps.iCanCloseTheCookieBannerSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Messing about with a second feature",
+    "description": "  As a customer\n  I want to see detailed information\n  So that I feel safe with the brand",
+    "id": "messing-about-with-a-second-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CustomerInformationSecond.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Customer information is displayed via multiple banners on viewing the site" time="85.724" tests="2" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="drivers/mac/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/markcraigrobertson/devProjects/web-automation/target/test-classes:/Users/markcraigrobertson/devProjects/web-automation/target/classes:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/markcraigrobertson/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.0/cucumber-picocontainer-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/markcraigrobertson/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/markcraigrobertson/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/markcraigrobertson/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/markcraigrobertson/devProjects/web-automation/target/surefire/surefirebooter3993503515771785390.jar /Users/markcraigrobertson/devProjects/web-automation/target/surefire 2020-12-02T22-07-04_511-jvmRun1 surefire842548122098745463tmp surefire_01440848910304009530tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/markcraigrobertson/devProjects/web-automation/target/test-classes:/Users/markcraigrobertson/devProjects/web-automation/target/classes:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/markcraigrobertson/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.0/cucumber-picocontainer-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/markcraigrobertson/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/markcraigrobertson/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/markcraigrobertson/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/markcraigrobertson"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/markcraigrobertson/devProjects/web-automation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/markcraigrobertson/devProjects/web-automation/target/surefire/surefirebooter3993503515771785390.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="markcraigrobertson"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/markcraigrobertson/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="/Users/markcraigrobertson/devProjects/web-automation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/markcraigrobertson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="/Users/markcraigrobertson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="The COVID information banner contains the current information" classname="Customer information is displayed via multiple banners on viewing the site" time="74.222">
+    <system-out><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://reports.cucumber.io/docs/cucumber-jvm&amp#27;[0m                 &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+
+
+Scenario: The COVID information banner contains the current information &amp#27;[90m# src/test/resources/features/CustomerInformation.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"index"&amp#27;[0m&amp#27;[32m page&amp#27;[0m                                        &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe COVID banner is visible&amp#27;[0m                                     &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.theCovidBannerIsVisible()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI see the following information associated with each header&amp#27;[0m      &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iSeeTheFollowingInformationAssociatedWithEachHeader(java.util.List<java.util.Map<java.lang.String, java.lang.String>>)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI can close the COVID banner successfully&amp#27;[0m                        &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iCanCloseTheCovidBannerSuccessfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32731
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 02, 2020 10:08:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="The Cookie banner is visible and can be interacted with" classname="Customer information is displayed via multiple banners on viewing the site" time="11.502">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Accept&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Marks-iMac.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/6j/tstynf051y3...}, goog:chromeOptions: {debuggerAddress: localhost:57062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 382558f99a673174318cd77d6eace083&#10;*** Element info: {Using=link text, value=Accept}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Accept"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/6j/tstynf051y3...}, goog:chromeOptions: {debuggerAddress: localhost:57062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 382558f99a673174318cd77d6eace083
+*** Element info: {Using=link text, value=Accept}
+]]></error>
+    <system-out><![CDATA[
+Scenario: The Cookie banner is visible and can be interacted with &amp#27;[90m# src/test/resources/features/CustomerInformation.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"index"&amp#27;[0m&amp#27;[32m page&amp#27;[0m                                  &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Cookie banner is visible&amp#27;[0m                              &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.theCookieBannerIsVisible()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe &amp#27;[0m&amp#27;[31m&amp#27;[1m"Accept"&amp#27;[0m&amp#27;[31m option is selectable&amp#27;[0m                           &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Accept"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/6j/tstynf051y3...}, goog:chromeOptions: {debuggerAddress: localhost:57062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 382558f99a673174318cd77d6eace083
+*** Element info: {Using=link text, value=Accept}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at com.automation.actions.IndexPageActions.getSelectableOption(IndexPageActions.java:38)
+	at com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(IndexPageSteps.java:55)
+	at ✽.the "Accept" option is selectable(file:///Users/markcraigrobertson/devProjects/web-automation/src/test/resources/features/CustomerInformation.feature:23)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"Reject"&amp#27;[0m&amp#27;[36m option is selectable&amp#27;[0m                           &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"Privacy policy"&amp#27;[0m&amp#27;[36m option is selectable&amp#27;[0m                   &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.theOptionIsSelectable(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI select &amp#27;[0m&amp#27;[36m&amp#27;[1m"Privacy policy"&amp#27;[0m                                  &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iSelect(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI am on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"privacy-policy"&amp#27;[0m&amp#27;[36m page&amp#27;[0m                          &amp#27;[90m# com.automation.stepdefs.IndexPageSteps.iAmOnThePage(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 17175
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 02, 2020 10:08:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
