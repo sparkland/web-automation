@@ -4,6 +4,8 @@ import com.automation.base.Base;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
+import java.net.MalformedURLException;
+
 public class Hooks extends Base {
 
     private Base base;
@@ -14,8 +16,8 @@ public class Hooks extends Base {
     }
 
     @Before
-    public void setup() {
-        base.getDriver();
+    public void setup() throws MalformedURLException {
+        base.getDriver("remote");
     }
 
     @After

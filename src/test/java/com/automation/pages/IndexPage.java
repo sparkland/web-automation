@@ -1,9 +1,11 @@
 package com.automation.pages;
 
+import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+@Getter
 public class IndexPage {
     @FindBy(css = "#coronabar")
     WebElement coronaBar;
@@ -27,30 +29,6 @@ public class IndexPage {
 
     public IndexPage(WebDriver driver) {
         this.driver = driver;
-    }
-
-    public WebElement getCookieBar() {
-        return cookieBar;
-    }
-
-    public WebElement getCoronaBarCloseIcon() {
-        return coronaBarCloseIcon;
-    }
-
-    public WebElement getCoronaBar() {
-        return coronaBar;
-    }
-
-    public WebElement getAcceptCookiesLink() {
-        return acceptCookiesLink;
-    }
-
-    public WebElement getRejectCookiesLink() {
-        return rejectCookiesLink;
-    }
-
-    public WebElement getPrivacyPolicyCookiesLink() {
-        return privacyPolicyCookiesLink;
     }
 
     public void getUrl(String url) {

@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(glue={"com.automation"},
         features = "src/test/resources",
-        plugin = { "pretty", "html: target/site/cucumber-pretty", "json: target/cucumber.json"})
+        plugin = { "pretty", "html:target/cucumber-pretty", "json:target/jsonReports/cucumber.json"})
 public class RunCucumberIT {
 
 }
