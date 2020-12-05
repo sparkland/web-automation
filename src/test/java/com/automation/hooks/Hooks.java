@@ -28,7 +28,7 @@ public class Hooks extends Base {
     @AfterStep
     public void stepTeardown(Scenario scenario) {
         if (scenario.isFailed()) {
-            scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "Scenario Failure Screenshot");
+            scenario.attach(((TakesScreenshot) base.driver).getScreenshotAs(OutputType.BYTES), "image/png", "Scenario Failure Screenshot");
         }
     }
 
