@@ -17,7 +17,8 @@ public class Hooks extends Base {
 
     @Before
     public void setup() throws MalformedURLException {
-        base.getDriver("remote");
+        String driverSelection = System.getProperty("driver") == null ? "chrome" : System.getProperty("driver");
+        base.getDriver(driverSelection);
     }
 
     @After
