@@ -1,3 +1,4 @@
+@allTest
 Feature: Messing about with a second feature
 
   As a customer
@@ -7,6 +8,7 @@ Feature: Messing about with a second feature
   Background:
     Given I am on the "index" page
 
+  @passingTest
   Scenario: The Cookie information banner contains the current information
     Given the Cookie banner is visible
     Then I can close the Cookie banner successfully

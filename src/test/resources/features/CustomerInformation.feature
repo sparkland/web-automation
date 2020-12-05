@@ -1,3 +1,4 @@
+@allTest
 Feature: Customer information is displayed via multiple banners on viewing the site
 
   As a customer
@@ -7,6 +8,7 @@ Feature: Customer information is displayed via multiple banners on viewing the s
   Background:
     Given I am on the "index" page
 
+  @passingTest
   Scenario: The COVID information banner contains the current information
     Given the COVID banner is visible
     When I see the following information associated with each header
@@ -18,6 +20,7 @@ Feature: Customer information is displayed via multiple banners on viewing the s
       | SICK        | Do not attend            |
     Then I can close the COVID banner successfully
 
+  @failingTest
   Scenario: The Cookie banner is visible and can be interacted with
     Given the Cookie banner is visible
     And the "Accept" option is selectable
