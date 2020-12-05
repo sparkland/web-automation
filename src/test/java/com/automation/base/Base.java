@@ -19,7 +19,7 @@ public class Base {
                 System.setProperty("webdriver.chrome.driver", "drivers/mac/chromedriver");
                 driver = new ChromeDriver(new ChromeOptions().addArguments("--incognito"));
             }
-        } else if (driverType.equals("remote")) {
+        } else if (driverType.equals("docker")) {
             if (driver == null) {
                 System.setProperty("webdriver.chrome.driver", "drivers/mac/chromedriver");
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
