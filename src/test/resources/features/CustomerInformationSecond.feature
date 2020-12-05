@@ -8,7 +8,7 @@ Feature: Messing about with a second feature
   Background:
     Given I am on the "index" page
 
-  @passingTest
+  @failingTest
   Scenario: The Cookie information banner contains the current information
     Given the Cookie banner is visible
     Then I can close the Cookie banner successfully
