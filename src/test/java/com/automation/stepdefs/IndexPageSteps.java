@@ -64,7 +64,7 @@ public class IndexPageSteps extends Base {
     @When("I see the following information associated with each header")
     public void iSeeTheFollowingInformationAssociatedWithEachHeader(List<Map<String, String>> headerValue) {
         for (Map<String, String> keyPair : headerValue) {
-
+            keyPair.containsValue("Get value from element");
         }
     }
 
