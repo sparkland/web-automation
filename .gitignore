@@ -1,6 +1,3 @@
-
- target/cucumber.json
- target/site/cucumber-pretty
 .DS_Store
 target/.DS_Store
 target/cucumber-html-reports/.DS_Store
@@ -37,13 +34,20 @@ target/surefire-reports/Messing about with a second feature.txt
 target/surefire-reports/TEST-Customer information is displayed via multiple banners on viewing the site.xml
 target/surefire-reports/TEST-Messing about with a second feature.xml
 target/web-automation-1.0-SNAPSHOT.jar
- target/cucumber.json
- target/site/cucumber-pretty
+target/cucumber.json
+target/site/cucumber-pretty
 target/surefire-reports/Customer information is displayed via multiple banners on viewing the site.txt
 target/surefire-reports/Messing about with a second feature.txt
 target/surefire-reports/TEST-Customer information is displayed via multiple banners on viewing the site.xml
 target/surefire-reports/TEST-Messing about with a second feature.xml
 target/web-automation-1.0-SNAPSHOT.jar
- target/cucumber.json
- target/site/cucumber-pretty
+target/cucumber.json
+target/site/cucumber-pretty
 target/surefire-reports/Messing about with a second feature.txt
+target/cucumber.json
+target/site/cucumber-pretty
+target/surefire-reports/Customer information is displayed via multiple banners on viewing the site.txt
+target/surefire-reports/Messing about with a second feature.txt
+target/surefire-reports/TEST-Customer information is displayed via multiple banners on viewing the site.xml
+target/surefire-reports/TEST-Messing about with a second feature.xml
+target/web-automation-1.0-SNAPSHOT.jar
